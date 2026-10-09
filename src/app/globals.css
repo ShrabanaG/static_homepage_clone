@@ -9,7 +9,7 @@
 @font-face {
   font-family: "Muli";
   src: url("assets/fonts/latin-ext.woff2") format("woff2");
-  font-style: normal;
+  font-style: italic;
   font-weight: 300;
   font-display: swap;
 }
@@ -39,7 +39,6 @@
 }
 
 body {
-  background: var(--background-primary);
   color: var(--color-black-primary);
   font-family: var(--font-sans);
 }
@@ -52,11 +51,11 @@ h4 {
 
 h1 {
   font-family: var(--font-large-heading);
-  font-weight: 300;
 }
 
 em {
   font-family: var(--font-moments);
+  color: var(--color-text-strong);
 }
 
 .underlined-btn {
@@ -80,4 +79,9 @@ em {
 
 .underlined-btn:hover::before {
   transform: scaleX(0);
+}
+
+.content-wrapper {
+  padding-top: 65.824px;
+  padding-bottom: 65.824px;
 }

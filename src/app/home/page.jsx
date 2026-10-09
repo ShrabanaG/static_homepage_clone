@@ -1,9 +1,11 @@
 import Header from "../components/Header";
+import WhoWeHelpSection from "../components/WhoWeHelpsection";
 
 const Home = () => {
   return (
-    <div className="bg-background-primary">
+    <div>
       <Header />
+      <WhoWeHelpSection />
     </div>
   );
 };

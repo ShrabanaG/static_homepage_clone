@@ -4,7 +4,7 @@ import { HeaderImage1, HeaderImage2 } from "../assets";
 
 const HeroSection = () => {
   return (
-    <section className="relative overflow-hidden bg-background-primary">
+    <section className="relative overflow-hidden ">
       {/* Content */}
       <div className="relative z-10 px-[6%] pt-8 lg:ml-[34%] lg:px-[8.5%] lg:pt-8">
         <p className="font-sans text-[11px] leading-[1.8] tracking-[0.13em] sm:text-sm lg:text-base">
