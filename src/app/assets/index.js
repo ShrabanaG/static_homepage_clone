@@ -8,3 +8,5 @@ export { default as HelpImage3 } from "./images/Help_Image_3.webp";
 export { default as SectionImage } from "./images/Section_Image.webp";
 export { default as SectionImage2 } from "./images/Section_Image_2.webp";
 export { default as JourneySectionImage } from "./images/Holding_Hand.webp";
+export { default as AppointmentImage1 } from "./images/Appointment_image_1.webp";
+export { default as AppointmentImage2 } from "./images/appointment_image_2.webp";

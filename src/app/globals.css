@@ -45,12 +45,15 @@ body {
 
 h2,
 h3,
-h4 {
+h4,
+p {
   font-family: var(--font-sans);
+  font-weight: 300 !important;
 }
 
 h1 {
   font-family: var(--font-large-heading);
+  font-weight: 300 !important;
 }
 
 em {
