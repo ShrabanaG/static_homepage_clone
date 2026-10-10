@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Conejo Valley Family Counseling — Homepage Clone
 
-## Getting Started
+A responsive static homepage recreation of **Conejo Valley Family Counseling**, built with Next.js, React, and Tailwind CSS. This project focuses on recreating the original website's visual layout, typography, imagery, and responsive user interface.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- **Next.js** — React framework using the App Router
+- **React** — Component-based UI development
+- **JavaScript (JSX)** — Application logic and components
+- **Tailwind CSS** — Responsive styling and utility-first CSS
+- **Next.js Image** — Image optimization
+- **Next.js Link** — Client-side navigation
+- **Custom Fonts** — Typography to match the reference design
+
+## ✨ Features
+
+- Responsive homepage layout for desktop and mobile screens
+- Hero section with typography and imagery
+- About section introducing the counseling practice
+- "Who We Help" section featuring Adults, Couples, and Children & Teens
+- Image overlays and quote section
+- Areas of expertise section
+- "Your Journey" section
+- Appointment section with supporting imagery and call-to-action
+- Footer with navigation, team information, and contact details
+- Reusable React components and custom styling
+
+## 📂 Project Structure
+
+```text
+static_homepage_clone/
+├── public/
+│   └── assets/
+│       └── fonts/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   └── page.jsx
+│   ├── assets/
+│   └── components/
+├── .gitignore
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- Git
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/ShrabanaG/static_homepage_clone.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd static_homepage_clone
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**5. Open the application**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Responsive Design
 
-## Learn More
+The interface uses Tailwind CSS responsive utilities to adapt the layout to different screen sizes.
 
-To learn more about Next.js, take a look at the following resources:
+- **Desktop:** Multi-column layouts with larger imagery and spacing.
+- **Tablet:** Adjusted layouts and spacing for medium-sized screens.
+- **Mobile:** Stacked sections and flexible content layouts.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👩‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Shrabana Goswami**
 
-## Deploy on Vercel
+- GitHub: [@ShrabanaG](https://github.com/ShrabanaG)
+- Project Repository: [static_homepage_clone](https://github.com/ShrabanaG/static_homepage_clone)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_This project is a frontend recreation for learning and portfolio purposes. It is not an official website of Conejo Valley Family Counseling._
