@@ -26,3 +26,17 @@ export const whoWeHelpContent = [
     desc: "Kids need support, too. We help them process big emotions, cope with challenging family situations, build coping skills, and feel understood, while also working closely with their parents to create a nurturing environment.",
   },
 ];
+
+export const expertiseContent = [
+  "Dissociation",
+  "Trauma",
+  "Family Conflict",
+  "Special Need Parenting",
+  "Depression",
+  "Marriage",
+  "Anxiety",
+  "Relationships",
+  "Children",
+  "Teens",
+  "Intimacy & Connection",
+];

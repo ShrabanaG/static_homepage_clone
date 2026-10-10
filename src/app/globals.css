@@ -85,3 +85,10 @@ em {
   padding-top: 65.824px;
   padding-bottom: 65.824px;
 }
+
+@media screen and (max-width: 600px) {
+  .content-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
